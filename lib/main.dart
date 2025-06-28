@@ -1,5 +1,6 @@
 // import flutter material package
 import 'package:flutter/material.dart';
+//jyo,cat
 
 // main function
 void main() {
@@ -123,6 +124,15 @@ class MainApp extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                     color: Colors.black54,
                     fontStyle: FontStyle.italic,
+                  ),
+                ),
+                const SizedBox(height: 20),
+                const Text(
+                  'Welcome to the Future of Software Development',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.blue,
                   ),
                 ),
                 const SizedBox(height: 40),
